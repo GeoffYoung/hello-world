@@ -9,9 +9,6 @@ cpp:
 	g++ hello_world.cpp -o hello_world_cpp
 	./hello_world_cpp
 	
-elixir:
-	elixir hello_world.ex
-	
 fortran:
 	gfortran hello_world.f -o hello_world_fortran
 	./hello_world_fortran
