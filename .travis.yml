@@ -4,7 +4,6 @@ sudo: required
 
 before_install:
   - make install-coffee
-  - make install-elixir
   - make install-fortran
   - make install-julia
   - bash -c "curl -s "https://get.sdkman.io" | bash"
@@ -20,7 +19,6 @@ script:
   - make c
   - make coffee
   - make cpp
-  - make elixir
   - make fortran
   - make go
   - make java
